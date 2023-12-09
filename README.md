@@ -168,6 +168,13 @@ Open the browser and navigate to the path where your server is listening on. Exa
 ```bash
   http://localhost:5000/swagger/index.html
 ```
+####
+
+![image](https://github.com/Kashish3009/CustomerInfo.API/assets/28315450/f749e1d6-8075-4864-8d72-a0d3b105e6a5)
+
+![image](https://github.com/Kashish3009/CustomerInfo.API/assets/28315450/e143bb77-4222-4264-a739-1bd987c571ce)
+
+
 
 ## Deployment to Azure cloud
 
