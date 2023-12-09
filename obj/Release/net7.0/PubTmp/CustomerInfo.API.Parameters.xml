@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="api-CustomerInfo-eastus-001" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\kashi\\OneDrive\\Desktop\\HasuraAssignment\\CustomerInformation\\CustomerInfo\\CustomerInfo\.API\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="CustomerInfo.API.Data.CustomerInformationContext" description="" value="Data Source=sqlserver-customerinfo-eastus-001.database.windows.net,1433;Initial Catalog=sqldb-customerinfo-eastus-001;User ID=admincustomerinfo;Password=Lol@vsod1" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\kashi\\OneDrive\\Desktop\\HasuraAssignment\\CustomerInformation\\CustomerInfo\\CustomerInfo\.API\\obj\\Release\\net7\.0\\PubTmp\\EFSQLScripts\\CustomerInfo\.API\.Data\.CustomerInformationContext\.sql$" />
+  </parameter>
+</parameters>

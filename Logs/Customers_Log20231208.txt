@@ -1,0 +1,335 @@
+2023-12-08 02:08:09.188 +05:30 [INF] Now listening on: https://localhost:7097
+2023-12-08 02:08:09.249 +05:30 [INF] Now listening on: http://localhost:5261
+2023-12-08 02:08:09.255 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-08 02:08:09.259 +05:30 [INF] Hosting environment: Development
+2023-12-08 02:08:09.260 +05:30 [INF] Content root path: C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API
+2023-12-08 02:08:12.057 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/index.html - -
+2023-12-08 02:08:12.558 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/index.html - - - 200 - text/html;charset=utf-8 506.7798ms
+2023-12-08 02:08:12.610 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - -
+2023-12-08 02:08:12.610 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - -
+2023-12-08 02:08:12.628 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 18.5469ms
+2023-12-08 02:08:12.688 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.9797ms
+2023-12-08 02:08:12.786 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - -
+2023-12-08 02:08:12.993 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 207.6234ms
+2023-12-08 02:21:15.289 +05:30 [INF] Now listening on: https://localhost:7097
+2023-12-08 02:21:15.357 +05:30 [INF] Now listening on: http://localhost:5261
+2023-12-08 02:21:15.364 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-08 02:21:15.367 +05:30 [INF] Hosting environment: Development
+2023-12-08 02:21:15.368 +05:30 [INF] Content root path: C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API
+2023-12-08 02:21:23.463 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/index.html - -
+2023-12-08 02:21:24.067 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/index.html - - - 200 - text/html;charset=utf-8 608.0814ms
+2023-12-08 02:21:24.127 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - -
+2023-12-08 02:21:24.127 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - -
+2023-12-08 02:21:24.139 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 12.1702ms
+2023-12-08 02:21:24.249 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 122.5830ms
+2023-12-08 02:21:24.372 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - -
+2023-12-08 02:21:24.668 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 296.2273ms
+2023-12-08 02:23:02.482 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Customers?api-version=1 - -
+2023-12-08 02:23:02.536 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API)'
+2023-12-08 02:23:02.587 +05:30 [INF] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:23:03.067 +05:30 [INF] Starting to get all the customers
+2023-12-08 02:23:04.797 +05:30 [INF] Executed DbCommand (72ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+2023-12-08 02:23:04.906 +05:30 [INF] Fetched all the customers
+2023-12-08 02:23:04.944 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse, CustomerInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-08 02:23:05.150 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API) in 2553.1977ms
+2023-12-08 02:23:05.155 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API)'
+2023-12-08 02:23:05.165 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Customers?api-version=1 - - - 200 12669 application/json;+charset=utf-8 2683.7041ms
+2023-12-08 02:24:57.609 +05:30 [INF] Now listening on: https://localhost:7097
+2023-12-08 02:24:57.669 +05:30 [INF] Now listening on: http://localhost:5261
+2023-12-08 02:24:57.675 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-08 02:24:57.678 +05:30 [INF] Hosting environment: Development
+2023-12-08 02:24:57.679 +05:30 [INF] Content root path: C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API
+2023-12-08 02:25:00.510 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/index.html - -
+2023-12-08 02:25:00.906 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/index.html - - - 200 - text/html;charset=utf-8 400.1163ms
+2023-12-08 02:25:00.945 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - -
+2023-12-08 02:25:00.945 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - -
+2023-12-08 02:25:00.957 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 11.3209ms
+2023-12-08 02:25:01.023 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.6083ms
+2023-12-08 02:25:01.128 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - -
+2023-12-08 02:25:01.329 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 200.9130ms
+2023-12-08 02:25:12.813 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Customers - -
+2023-12-08 02:25:12.836 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API)'
+2023-12-08 02:25:12.913 +05:30 [INF] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:25:13.253 +05:30 [INF] Starting to get all the customers
+2023-12-08 02:25:14.795 +05:30 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+2023-12-08 02:25:14.903 +05:30 [INF] Fetched all the customers
+2023-12-08 02:25:14.939 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse, CustomerInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-08 02:25:15.111 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API) in 2186.9954ms
+2023-12-08 02:25:15.117 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API)'
+2023-12-08 02:25:15.129 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Customers - - - 200 12669 application/json;+charset=utf-8 2317.3134ms
+2023-12-08 02:25:24.645 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7097/api/Customers application/json-patch+json 109
+2023-12-08 02:25:24.648 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.Create (CustomerInfo.API)'
+2023-12-08 02:25:24.667 +05:30 [INF] Route matched with {action = "Create", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CustomerOrders.API.DTOs.CustomerDTO.CustomerRequest) on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:25:24.759 +05:30 [INF] Customer creation started
+2023-12-08 02:25:24.972 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 100) (DbType = AnsiString), @p2='?' (Size = 50) (DbType = AnsiString), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (Size = 20) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Customers] ([CustomerID], [Email], [FirstName], [LastName], [PhoneNumber])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-08 02:25:24.990 +05:30 [INF] Customer created Successfully
+2023-12-08 02:25:24.997 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse'.
+2023-12-08 02:25:25.037 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.Create (CustomerInfo.API) in 362.9729ms
+2023-12-08 02:25:25.043 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.Create (CustomerInfo.API)'
+2023-12-08 02:25:25.045 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7097/api/Customers application/json-patch+json 109 - 201 107 application/json;+charset=utf-8 399.8633ms
+2023-12-08 02:25:45.600 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Customers - -
+2023-12-08 02:25:45.612 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API)'
+2023-12-08 02:25:45.615 +05:30 [INF] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:25:45.624 +05:30 [INF] Starting to get all the customers
+2023-12-08 02:25:45.710 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+2023-12-08 02:25:45.715 +05:30 [INF] Fetched all the customers
+2023-12-08 02:25:45.717 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse, CustomerInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-08 02:25:45.722 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API) in 102.5897ms
+2023-12-08 02:25:45.724 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API)'
+2023-12-08 02:25:45.726 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Customers - - - 200 12777 application/json;+charset=utf-8 127.1809ms
+2023-12-08 02:26:02.363 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Customers/0 - -
+2023-12-08 02:26:02.420 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API)'
+2023-12-08 02:26:02.430 +05:30 [INF] Route matched with {action = "GetById", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:26:02.441 +05:30 [INF] Starting to fetch the customer with id:0
+2023-12-08 02:26:02.560 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+WHERE [c].[CustomerID] = @__id_0
+2023-12-08 02:26:02.565 +05:30 [INF] Customer with id:0 is fetched successfully
+2023-12-08 02:26:02.566 +05:30 [INF] Executing OkObjectResult, writing value of type 'CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse'.
+2023-12-08 02:26:02.569 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API) in 134.8406ms
+2023-12-08 02:26:02.573 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API)'
+2023-12-08 02:26:02.575 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Customers/0 - - - 200 107 application/json;+charset=utf-8 211.3406ms
+2023-12-08 02:26:08.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Customers/101 - -
+2023-12-08 02:26:08.294 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API)'
+2023-12-08 02:26:08.297 +05:30 [INF] Route matched with {action = "GetById", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:26:08.301 +05:30 [INF] Starting to fetch the customer with id:101
+2023-12-08 02:26:08.312 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+WHERE [c].[CustomerID] = @__id_0
+2023-12-08 02:26:08.315 +05:30 [INF] Customer with id:101 is not available for showing
+2023-12-08 02:26:08.318 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-08 02:26:08.342 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API) in 41.8474ms
+2023-12-08 02:26:08.346 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API)'
+2023-12-08 02:26:08.347 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Customers/101 - - - 404 161 application/problem+json;+charset=utf-8 56.2434ms
+2023-12-08 02:26:42.254 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7097/api/Customers/0 application/json-patch+json 110
+2023-12-08 02:26:42.262 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.Update (CustomerInfo.API)'
+2023-12-08 02:26:42.267 +05:30 [INF] Route matched with {action = "Update", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, CustomerInfo.API.DTOs.CustomerDTO.UpdateCustomer) on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:26:42.280 +05:30 [INF] Starting to update the information for customer with id:0
+2023-12-08 02:26:42.524 +05:30 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateCustomer -> Customer
+CustomerInfo.API.DTOs.CustomerDTO.UpdateCustomer -> CustomerInfo.API.Models.Customer
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateCustomer -> Customer
+CustomerInfo.API.DTOs.CustomerDTO.UpdateCustomer -> CustomerInfo.API.Models.Customer
+   at lambda_method118(Closure, Object, Customer, ResolutionContext)
+   at CustomerInfo.API.Controllers.CustomersController.Update(Int32 id, UpdateCustomer updateCustomer) in C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API\Controllers\CustomersController.cs:line 100
+2023-12-08 02:26:42.641 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.Update (CustomerInfo.API) in 368.6597ms
+2023-12-08 02:26:42.644 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.Update (CustomerInfo.API)'
+2023-12-08 02:26:42.651 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateCustomer -> Customer
+CustomerInfo.API.DTOs.CustomerDTO.UpdateCustomer -> CustomerInfo.API.Models.Customer
+   at lambda_method118(Closure, Object, Customer, ResolutionContext)
+   at CustomerInfo.API.Controllers.CustomersController.Update(Int32 id, UpdateCustomer updateCustomer) in C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API\Controllers\CustomersController.cs:line 100
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-08 02:26:42.675 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7097/api/Customers/0 application/json-patch+json 110 - 500 - text/plain;+charset=utf-8 420.9612ms
+2023-12-08 02:27:59.045 +05:30 [INF] Now listening on: https://localhost:7097
+2023-12-08 02:27:59.090 +05:30 [INF] Now listening on: http://localhost:5261
+2023-12-08 02:27:59.096 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-08 02:27:59.098 +05:30 [INF] Hosting environment: Development
+2023-12-08 02:27:59.099 +05:30 [INF] Content root path: C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API
+2023-12-08 02:28:01.698 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/index.html - -
+2023-12-08 02:28:02.124 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/index.html - - - 200 - text/html;charset=utf-8 430.7474ms
+2023-12-08 02:28:02.130 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - -
+2023-12-08 02:28:02.140 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 9.8577ms
+2023-12-08 02:28:02.151 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - -
+2023-12-08 02:28:02.215 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.9490ms
+2023-12-08 02:28:02.364 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - -
+2023-12-08 02:28:02.558 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 193.8966ms
+2023-12-08 02:28:21.464 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7097/api/Customers/0 application/json-patch+json 110
+2023-12-08 02:28:21.475 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.Update (CustomerInfo.API)'
+2023-12-08 02:28:21.556 +05:30 [INF] Route matched with {action = "Update", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, CustomerInfo.API.DTOs.CustomerDTO.UpdateCustomer) on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:28:22.605 +05:30 [INF] Starting to update the information for customer with id:0
+2023-12-08 02:28:24.259 +05:30 [INF] Executed DbCommand (91ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+WHERE [c].[CustomerID] = @__id_0
+2023-12-08 02:28:24.499 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Customers] SET [FirstName] = @p0
+OUTPUT 1
+WHERE [CustomerID] = @p1;
+2023-12-08 02:28:24.529 +05:30 [INF] Updated the customer information with id:0 successfully
+2023-12-08 02:28:24.548 +05:30 [INF] Executing OkObjectResult, writing value of type 'CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse'.
+2023-12-08 02:28:24.605 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.Update (CustomerInfo.API) in 3039.3719ms
+2023-12-08 02:28:24.609 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.Update (CustomerInfo.API)'
+2023-12-08 02:28:24.620 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7097/api/Customers/0 application/json-patch+json 110 - 200 108 application/json;+charset=utf-8 3156.2334ms
+2023-12-08 02:30:19.098 +05:30 [INF] Now listening on: https://localhost:7097
+2023-12-08 02:30:19.180 +05:30 [INF] Now listening on: http://localhost:5261
+2023-12-08 02:30:19.188 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-08 02:30:19.191 +05:30 [INF] Hosting environment: Development
+2023-12-08 02:30:19.194 +05:30 [INF] Content root path: C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API
+2023-12-08 02:30:21.937 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/index.html - -
+2023-12-08 02:30:22.374 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/index.html - - - 200 - text/html;charset=utf-8 441.3192ms
+2023-12-08 02:30:22.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - -
+2023-12-08 02:30:22.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - -
+2023-12-08 02:30:22.427 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 17.3942ms
+2023-12-08 02:30:22.479 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.2220ms
+2023-12-08 02:30:22.574 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - -
+2023-12-08 02:30:22.761 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 186.3468ms
+2023-12-08 02:30:40.645 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7097/api/Customers/0 application/json-patch+json 109
+2023-12-08 02:30:40.668 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.Update (CustomerInfo.API)'
+2023-12-08 02:30:40.740 +05:30 [INF] Route matched with {action = "Update", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, CustomerInfo.API.DTOs.CustomerDTO.UpdateCustomer) on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:30:41.281 +05:30 [INF] Starting to update the information for customer with id:0
+2023-12-08 02:30:42.888 +05:30 [INF] Executed DbCommand (91ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+WHERE [c].[CustomerID] = @__id_0
+2023-12-08 02:30:43.124 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 50) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Customers] SET [LastName] = @p0
+OUTPUT 1
+WHERE [CustomerID] = @p1;
+2023-12-08 02:30:43.147 +05:30 [INF] Updated the customer information with id:0 successfully
+2023-12-08 02:30:43.170 +05:30 [INF] Executing OkObjectResult, writing value of type 'CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse'.
+2023-12-08 02:30:43.231 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.Update (CustomerInfo.API) in 2481.2971ms
+2023-12-08 02:30:43.237 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.Update (CustomerInfo.API)'
+2023-12-08 02:30:43.249 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7097/api/Customers/0 application/json-patch+json 109 - 200 107 application/json;+charset=utf-8 2604.2039ms
+2023-12-08 02:30:52.391 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7097/api/Customers/0 - -
+2023-12-08 02:30:52.395 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.Delete (CustomerInfo.API)'
+2023-12-08 02:30:52.405 +05:30 [INF] Route matched with {action = "Delete", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:30:52.413 +05:30 [INF] Attempting to delete the customer with Id:0
+2023-12-08 02:30:52.454 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+WHERE [c].[CustomerID] = @__id_0
+2023-12-08 02:30:52.495 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Customers]
+OUTPUT 1
+WHERE [CustomerID] = @p0;
+2023-12-08 02:30:52.503 +05:30 [INF] Deleted the customer with id: 0 successfully
+2023-12-08 02:30:52.506 +05:30 [INF] Executing OkObjectResult, writing value of type 'CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse'.
+2023-12-08 02:30:52.508 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.Delete (CustomerInfo.API) in 99.0431ms
+2023-12-08 02:30:52.510 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.Delete (CustomerInfo.API)'
+2023-12-08 02:30:52.512 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7097/api/Customers/0 - - - 200 107 application/json;+charset=utf-8 121.5800ms
+2023-12-08 02:31:15.903 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Customers/0 - -
+2023-12-08 02:31:15.920 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API)'
+2023-12-08 02:31:15.931 +05:30 [INF] Route matched with {action = "GetById", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:31:15.943 +05:30 [INF] Starting to fetch the customer with id:0
+2023-12-08 02:31:16.035 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+WHERE [c].[CustomerID] = @__id_0
+2023-12-08 02:31:16.040 +05:30 [INF] Customer with id:0 is not available for showing
+2023-12-08 02:31:16.042 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-08 02:31:16.092 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API) in 153.477ms
+2023-12-08 02:31:16.095 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API)'
+2023-12-08 02:31:16.097 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Customers/0 - - - 404 161 application/problem+json;+charset=utf-8 194.2032ms
+2023-12-08 02:31:21.602 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Customers/1 - -
+2023-12-08 02:31:21.604 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API)'
+2023-12-08 02:31:21.607 +05:30 [INF] Route matched with {action = "GetById", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:31:21.610 +05:30 [INF] Starting to fetch the customer with id:1
+2023-12-08 02:31:21.617 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+WHERE [c].[CustomerID] = @__id_0
+2023-12-08 02:31:21.623 +05:30 [INF] Customer with id:1 is fetched successfully
+2023-12-08 02:31:21.624 +05:30 [INF] Executing OkObjectResult, writing value of type 'CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse'.
+2023-12-08 02:31:21.626 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API) in 16.0865ms
+2023-12-08 02:31:21.628 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.GetById (CustomerInfo.API)'
+2023-12-08 02:31:21.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Customers/1 - - - 200 122 application/json;+charset=utf-8 27.9219ms
+2023-12-08 02:31:26.539 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Customers - -
+2023-12-08 02:31:26.541 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API)'
+2023-12-08 02:31:26.553 +05:30 [INF] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:31:26.562 +05:30 [INF] Starting to get all the customers
+2023-12-08 02:31:26.579 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+2023-12-08 02:31:26.587 +05:30 [INF] Fetched all the customers
+2023-12-08 02:31:26.609 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse, CustomerInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-08 02:31:26.640 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API) in 80.4538ms
+2023-12-08 02:31:26.642 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API)'
+2023-12-08 02:31:26.644 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Customers - - - 200 12669 application/json;+charset=utf-8 105.2303ms
+2023-12-08 02:31:43.648 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7097/api/Customers application/json-patch+json 104
+2023-12-08 02:31:43.650 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.Create (CustomerInfo.API)'
+2023-12-08 02:31:43.660 +05:30 [INF] Route matched with {action = "Create", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CustomerOrders.API.DTOs.CustomerDTO.CustomerRequest) on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:31:43.676 +05:30 [INF] Customer creation started
+2023-12-08 02:31:43.725 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 100) (DbType = AnsiString), @p2='?' (Size = 50) (DbType = AnsiString), @p3='?' (Size = 50) (DbType = AnsiString), @p4='?' (Size = 20) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Customers] ([CustomerID], [Email], [FirstName], [LastName], [PhoneNumber])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-08 02:31:43.729 +05:30 [INF] Customer created Successfully
+2023-12-08 02:31:43.732 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse'.
+2023-12-08 02:31:43.785 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.Create (CustomerInfo.API) in 120.1078ms
+2023-12-08 02:31:43.803 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.Create (CustomerInfo.API)'
+2023-12-08 02:31:43.805 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7097/api/Customers application/json-patch+json 104 - 201 102 application/json;+charset=utf-8 157.2345ms
+2023-12-08 02:51:41.448 +05:30 [INF] Now listening on: https://localhost:7097
+2023-12-08 02:51:41.503 +05:30 [INF] Now listening on: http://localhost:5261
+2023-12-08 02:51:41.510 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-08 02:51:41.513 +05:30 [INF] Hosting environment: Development
+2023-12-08 02:51:41.515 +05:30 [INF] Content root path: C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API
+2023-12-08 02:51:45.201 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/index.html - -
+2023-12-08 02:51:45.843 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/index.html - - - 200 - text/html;charset=utf-8 646.2469ms
+2023-12-08 02:51:45.856 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - -
+2023-12-08 02:51:45.865 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 9.1888ms
+2023-12-08 02:51:45.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - -
+2023-12-08 02:51:45.938 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.9025ms
+2023-12-08 02:51:46.080 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - -
+2023-12-08 02:51:46.331 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 251.1348ms
+2023-12-08 02:51:59.865 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Customers?pageNumber=1&pageSize=1000 - -
+2023-12-08 02:51:59.882 +05:30 [INF] Executing endpoint 'CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API)'
+2023-12-08 02:51:59.957 +05:30 [INF] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller CustomerInfo.API.Controllers.CustomersController (CustomerInfo.API).
+2023-12-08 02:52:00.482 +05:30 [INF] Starting to get all the customers
+2023-12-08 02:52:01.367 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-12-08 02:52:01.371 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-12-08 02:52:02.265 +05:30 [INF] Executed DbCommand (102ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CustomerID], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-12-08 02:52:02.368 +05:30 [INF] Fetched all the customers
+2023-12-08 02:52:02.405 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerOrders.API.DTOs.CustomerDTO.CustomerResponse, CustomerInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-08 02:52:02.593 +05:30 [INF] Executed action CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API) in 2628.3809ms
+2023-12-08 02:52:02.597 +05:30 [INF] Executed endpoint 'CustomerInfo.API.Controllers.CustomersController.GetAllAsync (CustomerInfo.API)'
+2023-12-08 02:52:02.608 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Customers?pageNumber=1&pageSize=1000 - - - 200 12772 application/json;+charset=utf-8 2743.1347ms
+2023-12-08 02:53:46.166 +05:30 [INF] Now listening on: https://localhost:7097
+2023-12-08 02:53:46.221 +05:30 [INF] Now listening on: http://localhost:5261
+2023-12-08 02:53:46.228 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-08 02:53:46.231 +05:30 [INF] Hosting environment: Development
+2023-12-08 02:53:46.233 +05:30 [INF] Content root path: C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API
+2023-12-08 02:53:49.337 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/index.html - -
+2023-12-08 02:53:49.757 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/index.html - - - 200 - text/html;charset=utf-8 425.4182ms
+2023-12-08 02:53:49.769 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - -
+2023-12-08 02:53:49.780 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 10.4545ms
+2023-12-08 02:53:49.788 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - -
+2023-12-08 02:53:49.855 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.8830ms
+2023-12-08 02:53:49.982 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - -
+2023-12-08 02:53:50.187 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 205.4450ms
