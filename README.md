@@ -103,7 +103,7 @@ Body Schema:
     7. Swagger UI
     8. Visual Studio 2022 IDE community edition
 
-## Cloning the code for project
+## Cloning the code
 
 Follow below steps sequentially for cloning the source code to your local workspace:
 
