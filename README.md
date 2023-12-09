@@ -133,6 +133,7 @@ To clone directly using Visual Studio 2022, open Visual Studio 2022 and
         5. Paste the URL in the "Repository Location" box.
         6. Click on "Clone" button.
 
+####
 ![image](https://github.com/Kashish3009/CustomerInfo.API/assets/28315450/a752c84b-2e6b-4523-9ec6-94c571356dc2)
 
 
@@ -203,6 +204,7 @@ __Step 7: Publish API from Visual Studio IDE__
         6. Follow the wizard to configure your Azure App Service.
         7. Click "Publish" to deploy your API to Azure.
 
+####
 ![image](https://github.com/Kashish3009/CustomerInfo.API/assets/28315450/0440ae66-b6be-4c93-aa5b-dca8c7f8f0ef)
 
 
