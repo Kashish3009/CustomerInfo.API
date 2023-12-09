@@ -119,6 +119,11 @@ Step 3: Copy below command in the git bash and hit enter.
 ```bash
     git clone https://github.com/Kashish3009/CustomerInfo.API.git
 ```
+
+####
+![image](https://github.com/Kashish3009/CustomerInfo.API/assets/28315450/3db1a9d8-6463-4e08-a6e5-7949f2a3c408)
+
+
 __Using Visual Studio 2022 UI__
 
 To clone directly using Visual Studio 2022, open Visual Studio 2022 and 
