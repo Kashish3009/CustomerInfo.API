@@ -252,6 +252,11 @@ __Step 8: Verify Deployment__
         2. Navigate to your App Service.
         3. In the left sidebar, click on "Overview" to get the URL.
 
+####
+
+![image](https://github.com/Kashish3009/CustomerInfo.API/assets/28315450/e211ba64-a78c-4618-a8fc-bdd7a41eeaf4)
+
+
 __Test the API:__
     Use tools like Postman, curL etc. to test your API using the Azure App Service URL.
 
