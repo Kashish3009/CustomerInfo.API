@@ -143,6 +143,32 @@ To clone directly using Visual Studio 2022, open Visual Studio 2022 and
 
 
 Reference: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Kashish3009/CustomerInfo.API.git
+```
+
+Navigate to the project directory in bin folder where you have cloned the project:
+
+```bash
+  cd <my-project>
+```
+
+Start the server
+
+```bash
+   dotnet customerInfo.API.dll
+```
+Open the browser and navigate to the path where your server is listening on. Example: 
+
+```bash
+  http://localhost:5000/swagger/index.html
+```
+
 ## Deployment to Azure cloud
 
 After cloning the source code in local environment,  follow steps below to deploy in Azure cloud:
