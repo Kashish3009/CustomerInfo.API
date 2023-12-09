@@ -231,6 +231,8 @@ __Step 6: Add Local IP Address to Networking in Azure SQL Server__
         1. Navigate to SQL Server: In the Azure Portal, go to your SQL Server instance.
         2. Configure Firewall Rules: In the left sidebar, under Settings, click on "Firewalls and virtual networks."
         3. Add the IP address range of your local SQL Server to the allowed IP addresses.
+        4. Follow the steps to connect local SQl Server to Azure SQl DB as per reference section "Connect SSMS to Azure SQl DB".
+        5. You could run the DBInsertionsScript.sql as in code repo to insert the sample data to the DB.
 
 __Step 7: Publish API from Visual Studio IDE__
 
