@@ -41,7 +41,6 @@ namespace CustomerInfo.API.Controllers
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, ex.Message);
                 logger.LogCritical(500, ex, ex.StackTrace);
                 throw;
             }
@@ -119,7 +118,6 @@ namespace CustomerInfo.API.Controllers
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, ex.Message);
                 logger.LogTrace(500, ex, ex.StackTrace);
                 throw;
             }

@@ -104,3 +104,4 @@ C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInf
 C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API\obj\Debug\net7.0\CustomerInfo.API.pdb
 C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API\obj\Debug\net7.0\CustomerInfo.API.genruntimeconfig.cache
 C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API\obj\Debug\net7.0\ref\CustomerInfo.API.dll
+C:\Users\kashi\OneDrive\Desktop\HasuraAssignment\CustomerInformation\CustomerInfo\CustomerInfo.API\obj\Debug\net7.0\CustomerInfo.API.sourcelink.json

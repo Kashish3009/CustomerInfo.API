@@ -15,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers().AddNewtonsoftJson();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(options=>options.SwaggerDoc("v1", new OpenApiInfo { Title = "CustomerInfo API", Version = "v1", Description = "For CustomerInfo API source code - [click here](https://example.com/docs), it's open-source :-) Happy exploring....!!." }));
+builder.Services.AddSwaggerGen(options=>options.SwaggerDoc("v1", new OpenApiInfo { Title = "CustomerInfo API", Version = "v1", Description = "For CustomerInfo API source code - [click here](https://github.com/Kashish3009/CustomerInfo.API), it's open-bn :-) Happy exploring....!!." }));
 builder.Services.AddDbContext<CustomerInformationContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnectionString")));
 builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 var logger = new LoggerConfiguration()
