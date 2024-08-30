@@ -11,5 +11,7 @@ steps:
   - 'app'
   - 'deploy'
   - './publish/app.yaml'
-
+options:
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
+  
 timeout: "1200s"
