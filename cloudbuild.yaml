@@ -1,0 +1,15 @@
+steps:
+- name: 'mcr.microsoft.com/dotnet/sdk:7.0'
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    dotnet publish -c Release -o ./publish
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - 'app'
+  - 'deploy'
+  - './publish/app.yaml'
+
+timeout: "1200s"
